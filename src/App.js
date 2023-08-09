@@ -1,14 +1,16 @@
 import Footer from "./components/Footer";
-import Gallary1 from "./components/Gallary1";
+import Gallary from "./components/Gallary";
 import Hero from "./components/Hero";
-
-import('preline')
+import Menu from "./components/Menu";
+import Testimony from "./components/Testimony";
 
 function App() {
   return (
     <>
       <Hero />
-      <Gallary1 />
+      <Testimony />
+      <Gallary />
+      <Menu />
       <Footer />
     </>
   );

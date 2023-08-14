@@ -80,7 +80,7 @@ export default function Testimony() {
   ]
 
   return (
-    <div className="relative isolate">
+    <div className="relative isolate bg-black">
       <div className="relative">
         <div
           className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
@@ -109,13 +109,13 @@ export default function Testimony() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-xl sm:text-center">
             <h2 className="text-lg font-semibold leading-8 tracking-tight text-pink-500">Reviews</h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
               See what the community thinks about us
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-            <figure className="col-span-2 hidden sm:block sm:rounded-2xl sm:bg-white sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 xl:col-start-2 xl:row-end-1">
-              <blockquote className="p-12 text-xl font-semibold leading-8 tracking-tight text-gray-900">
+            <figure className="col-span-2 hidden sm:block sm:rounded-2xl bg-slate-800 sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 xl:col-start-2 xl:row-end-1">
+              <blockquote className="p-12 text-xl font-semibold leading-8 tracking-tight text-white">
                 <p>{`“${featuredTestimonial.body}”`}</p>
               </blockquote>
               <figcaption className="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
@@ -125,7 +125,7 @@ export default function Testimony() {
                   alt=""
                 />
                 <div className="flex-auto">
-                  <div className="font-semibold text-xl">{featuredTestimonial.author.name}</div>
+                  <div className="text-white font-semibold text-xl">{featuredTestimonial.author.name}</div>
                 </div>
                 <img className="h-10 w-auto flex-none" src={featuredTestimonial.author.logoUrl} alt="" />
               </figcaption>
@@ -146,9 +146,9 @@ export default function Testimony() {
                     {column.map((testimonial) => (
                       <figure
                         key={testimonial.author.handle}
-                        className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"
+                        className="rounded-2xl bg-slate-800 p-6 shadow-lg ring-1 ring-gray-900/5"
                       >
-                        <blockquote className="text-gray-900">
+                        <blockquote className="text-white">
                           <p>{`“${testimonial.body}”`}</p>
                         </blockquote>
                         <figcaption className="mt-6 flex items-center gap-x-4">
@@ -158,7 +158,7 @@ export default function Testimony() {
                             alt=""
                           />
                           <div>
-                            <div className="font-semibold text-xl">{testimonial.author.name}</div>
+                            <div className="text-white font-semibold text-xl">{testimonial.author.name}</div>
                           </div>
                         </figcaption>
                       </figure>

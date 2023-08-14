@@ -36,7 +36,7 @@ const categories2 = [
 export default function Gallary() {
   return (
     <>
-      <div className="bg-white">
+      <div className="dark:bg-black light:bg-white">
         <div className="py-16 sm:py-24 xl:mx-auto xl:max-w-7xl xl:px-8">
 
           <div className="mt-4 flow-root">
@@ -61,7 +61,7 @@ export default function Gallary() {
         </div>
       </div>
 
-      <div className="bg-white">
+      <div className="dark:bg-black light:bg-white">
         <div className="py-16 sm:py-2 xl:mx-auto xl:max-w-7xl xl:px-2">
 
           <div className="mt-4 flow-root">

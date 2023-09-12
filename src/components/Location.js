@@ -7,14 +7,14 @@ const posts = [
   },
   {
     id: 2,
-    title: 'Right Track Nutrition',
-    href: '#',
-    imageUrl: '/images/logo.jpeg'
+    title: 'The Well Nutrition',
+    href: 'https://www.facebook.com/profile.php?id=100042181484474',
+    imageUrl: '/images/thewell.jpeg'
   },
   {
     id: 3,
     title: 'Wilmore Well Nutrition',
-    href: '#',
+    href: 'https://wilmorewell.com',
     imageUrl: '/images/wilmore.jpeg'
   }
 ]
